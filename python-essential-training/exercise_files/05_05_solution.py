@@ -3,7 +3,6 @@ import time
 from termcolor import colored
 import math 
 
-
 class Canvas:
     def __init__(self, width, height):
         self._x = width
