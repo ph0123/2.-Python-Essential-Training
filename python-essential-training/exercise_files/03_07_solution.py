@@ -1,3 +1,4 @@
+
 import os
 import time
 from termcolor import colored
@@ -76,9 +77,9 @@ class TerminalScribe:
         self.canvas.print()
         time.sleep(self.framerate)
 
-canvas = Canvas(30, 30)
+canvas = Canvas(10, 10)
 scribe = TerminalScribe(canvas)
-scribe.setDegrees(135)
-for i in range(30):
+scribe.setDegrees(125) #degree
+for i in range(10):
     scribe.forward()
 
